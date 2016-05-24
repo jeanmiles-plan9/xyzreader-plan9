@@ -5,8 +5,10 @@
 
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="Theme.Bacon.Detail" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorPrimary">@color/app_theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/app_theme_primary_dark</item>
+        <item name="android:colorAccent">@color/app_theme_accent</item>
     </style>
 
 </resources>
